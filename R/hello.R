@@ -1,6 +1,6 @@
 #' Title
 #'
-#' @param x The name of the person to say hi
+#' @param x The name of the person to say hi jo
 #'
 #' @return The output from \code{link{print}}
 #' @export
