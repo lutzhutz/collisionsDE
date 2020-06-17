@@ -1,0 +1,11 @@
+Package: collisionsDE
+Type: Package
+Title: Download & Process Collision Data From Destatis Dataset
+Version: 0.1.0
+Author: Lasse Harkort <l.harkort@posteo.net>
+Maintainer: The package maintainer <l.harkort@posteo.net>
+Description: Set of functions to simply import and add location information to the collision dataset of the German Federal Statistical Office.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
