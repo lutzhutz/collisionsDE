@@ -7,15 +7,31 @@
 
 <!-- badges: end -->
 
-The goal of collisionsDE is to …
+collisionsDE is a R library to simplify the use of the publicly
+available collision data from the German Federal Statistical Office
 
 ## Installation
 
 You can install the released version of collisionsDE from
-[CRAN](https://CRAN.R-project.org) with:
+[GitHub](https://github.com) with:
+
+First, you need to install the devtools package. You can do this from
+CRAN. Invoke R and then type:
 
 ``` r
-install.packages("collisionsDE")
+install.packages("devtools")
+```
+
+Load the devtools package.
+
+``` r
+library("devtools")
+```
+
+Now you can download the package with:
+
+``` r
+install_github("lutzhutz/collisionsDE")
 ```
 
 ## Example

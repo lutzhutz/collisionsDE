@@ -7,10 +7,10 @@
 import_2018(x)
 }
 \arguments{
-\item{x}{}
+\item{x}{stays empty}
 }
 \value{
-
+all collisions with personal injuries that have been reported in 2018
 }
 \description{
 Title
