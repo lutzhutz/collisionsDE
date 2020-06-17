@@ -2,3 +2,8 @@
 
 export(hello)
 export(import_2018)
+importFrom(sf,read_sf)
+importFrom(sf,st_as_sf)
+importFrom(sf,st_transform)
+importFrom(utils,download.file)
+importFrom(utils,unzip)

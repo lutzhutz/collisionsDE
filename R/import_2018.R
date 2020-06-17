@@ -3,7 +3,13 @@
 #' @param x
 #'
 #' @return
+#'
 #' @export
+#' @importFrom utils download.file
+#' @importFrom utils unzip
+#' @importFrom sf read_sf
+#' @importFrom sf st_as_sf
+#' @importFrom sf st_transform
 #'
 #' @examples
 
