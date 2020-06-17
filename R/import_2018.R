@@ -1,8 +1,8 @@
 #' Title
 #'
-#' @param x
+#' @param x stays empty
 #'
-#' @return
+#' @return all collisions with personal injuries that have been reported in 2018
 #'
 #' @export
 #' @importFrom utils download.file
