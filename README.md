@@ -13,6 +13,9 @@ data](https://unfallatlas.statistikportal.de/_opendata2019.html) from
 the [German Federal Statistical
 Office](https://www.destatis.de/DE/Home/_inhalt.html)
 
+**WARNING:** This package is under development. Full functionality is
+not guaranteed\!
+
 ## Installation
 
 You can install the released version of collisionsDE from
@@ -44,17 +47,25 @@ Download all reported collisions of 2018
 ``` r
 library(collisionsDE)
 
-collisions_2018<-import_2018()
+collisions_2018 <- import_2018()
 ```
 
 Add regional information to each of the collisions
 
 ``` r
-collisions_2018_regions<- add_regions(collisions_2018)
+collisions_2018_regions <- add_regions(collisions_2018)
 ```
 
 Extract all collisions with cyclist participation
 
 ``` r
 collisions_2018_regions_cyclist <- collisions_2018_regions[collisions_2018_regions$IstRad == 1,]
+```
+
+Add new column “coll\_typ” giving information about which transport
+modes have collided (three = TRUE means all collisions with two or more
+transport modes involved are assigned a new group calles “three”).
+
+``` r
+collisions_2018_collision_types <- add_collision_types(collisions_2018, three = TRUE)
 ```
