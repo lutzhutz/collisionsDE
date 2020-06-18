@@ -46,12 +46,12 @@ install_github("lutzhutz/collisionsDE")
 
 ## Example
 
-Download all reported collisions of 2018
+Download all reported collisions of 2018 (if save = TRUE data frame will be saved as text file)
 
 ```r
 library(collisionsDE)
 
-collisions_2018 <- import_2018()
+collisions_2018 <- import_2018(save = FALSE)
 ```
 
 Add regional information to each of the collisions
