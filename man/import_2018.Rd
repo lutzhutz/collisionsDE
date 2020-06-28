@@ -2,16 +2,18 @@
 % Please edit documentation in R/import_2018.R
 \name{import_2018}
 \alias{import_2018}
-\title{Title}
+\title{Import collisions with personal injury from year 2018}
 \usage{
-import_2018(x)
+import_2018(x, save = FALSE)
 }
 \arguments{
 \item{x}{stays empty}
+
+\item{save}{if TRUE saves data frame as text file}
 }
 \value{
 all collisions with personal injuries that have been reported in 2018
 }
 \description{
-Title
+Import collisions with personal injury from year 2018
 }

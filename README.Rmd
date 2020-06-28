@@ -46,7 +46,7 @@ install_github("lutzhutz/collisionsDE")
 
 ## Example
 
-Download all reported collisions of 2018 (if save = TRUE data frame will be saved as text file)
+Download all reported collisions of 2018 (if save = TRUE data frame will be saved as text file named "coll_2018")
 
 ```r
 library(collisionsDE)
@@ -66,7 +66,7 @@ Extract all collisions with cyclist participation
 collisions_2018_regions_cyclist <- collisions_2018_regions[collisions_2018_regions$IstRad == 1,]
 ```
 
-Add new column "coll_typ" giving information about which transport modes have collided (three = TRUE means all collisions with two or more transport modes involved are assigned a new group calles "three").
+Add new column "coll_typ" giving information about which transport modes have collided (three = TRUE means all collisions with two or more transport modes involved are assigned a new group called "three").
 
 ```r
 collisions_2018_collision_types <- add_collision_types(collisions_2018, three = TRUE)

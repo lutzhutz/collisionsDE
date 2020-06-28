@@ -41,7 +41,7 @@ collision_types <- function (data, three = TRUE) {
         "bicyclecar",
         "bicyclefoot",
         "bicycleother",
-        "bicyclehtruck",
+        "bicycletruck",
         "bicyclemcycle"
       ),]
   three <- subset_two$coll_typ
