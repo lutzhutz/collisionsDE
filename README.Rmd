@@ -60,12 +60,6 @@ Add regional information to each of the collisions
 collisions_2018_regions <- add_regions(collisions_2018)
 ```
 
-Extract all collisions with cyclist participation
-
-```r
-collisions_2018_regions_cyclist <- collisions_2018_regions[collisions_2018_regions$IstRad == 1,]
-```
-
 Add new column "coll_typ" giving information about which transport modes have collided (three = TRUE means all collisions with two or more transport modes involved are assigned a new group called "three").
 
 ```r
