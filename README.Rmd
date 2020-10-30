@@ -18,14 +18,14 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-collisionsDE is a R library to simplify the use of the publicly available [collision data](https://unfallatlas.statistikportal.de/_opendata2019.html) from the [German Federal Statistical Office](https://www.destatis.de/DE/Home/_inhalt.html)
+collisionsDE is a R library to simplify the use of the publicly available [collision data](https://unfallatlas.statistikportal.de/_opendata2020.html) from the [German Federal Statistical Office](https://www.destatis.de/DE/Home/_inhalt.html)
 
 **WARNING:**
 This package is under development. Full functionality is not guaranteed!
 
 ## Installation
 
-You can install the released version of collisionsDE from [GitHub](https://github.com) with:
+You can install the released version of collisionsDE from [GitHub](https://github.com)
 
 First, you need to install the devtools package. You can do this from CRAN. Invoke R and then type:
 
