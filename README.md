@@ -54,7 +54,7 @@ collisions_2018 <- import_2018(save = FALSE)
 Add regional information to each of the collisions. This function will
 merge the collision dataset with the [regiostar reference
 file](https://www.bmvi.de/SharedDocs/DE/Anlage/G/regiostar-referenzdateien.html)
-by the Federal Ministry of [Transport and Digital Infrastructure
+by the [Federal Ministry of Transport and Digital Infrastructure
 (BMVI)](https://www.bmvi.de/DE/Home/home.html). Among other it will add
 information about regional spatial types as well as the municipality
 (german: Gemeinde) corresponding the each collision.
