@@ -1,6 +1,6 @@
 #' Add collision types to collision data
 #'
-#' @param data must be collision dataset of German Federal Statistical Office
+#' @param data must be a collision dataset of German Federal Statistical Office
 #' @param three can be TRUE or FALSE, if TRUE more than two participating transport modes will be assigned to one value called "three", if FALSE more than two participating transport mdoes will be shown
 #'
 #' @return collision dataset with additional column "coll_typ" which contains information about which transport modes have collided

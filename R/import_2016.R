@@ -2,7 +2,7 @@
 #'
 #' @param x stays empty
 #' @param save if TRUE saves data frame as text file
-#' @return all collisions with personal injuries that have been reported in 2016
+#' @return a tibble with simple features (see package: sf) represented in a geometry list-column containing all collisions with personal injuries that have been reported in 2016
 #'
 #' @export
 #' @importFrom utils download.file
