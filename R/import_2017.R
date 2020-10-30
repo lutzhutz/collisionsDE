@@ -20,14 +20,14 @@ import_2017 <- function(x,save = FALSE) {
     temp
   )
   unzip(temp)
-  y_18 <-
+  y_17 <-
     read_sf("./Shapefile/Unfallorte2017_LinRef.shp",
             "Unfallorte2017_LinRef")
-  y_18 <- st_as_sf(y_18)U
-  y_18 <- st_transform(y_18, 25832)
+  y_17 <- st_as_sf(y_17)
+  y_17 <- st_transform(y_17, 25832)
   if (!save)
-    return(y_18)
+    return(y_17)
   if(save)
-    write.csv(x=y_18,file = "coll_2017")
-  return(y_18)
+    write.csv(x=y_17,file = "coll_2017")
+  return(y_17)
 }
