@@ -16,7 +16,7 @@
 import_2017 <- function(x,save = FALSE) {
   temp <- tempfile()
   download.file(
-    "https://unfallatlas.statistikportal.de/app/UnfalldatenDownload/Unfallorte2017_LinRef_Shapefile.zip",
+    "https://www.opengeodata.nrw.de/produkte/transport_verkehr/unfallatlas/Unfallorte2017_EPSG25832_Shape.zip",
     temp
   )
   unzip(temp)
