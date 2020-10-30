@@ -56,8 +56,10 @@ merge the collision dataset with the [regiostar reference
 file](https://www.bmvi.de/SharedDocs/DE/Anlage/G/regiostar-referenzdateien.html)
 by the [Federal Ministry of Transport and Digital Infrastructure
 (BMVI)](https://www.bmvi.de/DE/Home/home.html). Among other it will add
-information about regional spatial types as well as the municipality
-(german: Gemeinde) corresponding the each collision.
+information about [regional spatial
+types](https://www.bmvi.de/SharedDocs/DE/Artikel/G/regionalstatistische-raumtypologie.html)
+as well as the municipality, its area and population (german: Gemeinde)
+corresponding to each collision.
 
 ``` r
 collisions_2018_regions <- add_regions(collisions_2018)
