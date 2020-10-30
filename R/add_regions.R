@@ -34,6 +34,12 @@ add_regions <- function(data) {
                 y = df,
                 by = "gem",
                 all.x = T)
+  data_na <- sum(is.na(data$RegioStaR7))
+  if (data_na > 0)
+    warning(paste0(
+      data_na,
+      " collisions could not be assigned a regional spatial type"
+    ))
   data$regio7bez <- revalue(
     as.factor(data$RegioStaR7),
     c(
