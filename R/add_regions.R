@@ -38,7 +38,7 @@ add_regions <- function(data) {
   if (data_na > 0)
     warning(paste0(
       data_na,
-      "collisions could not be assigned a regional spatial type"
+      " collisions could not be assigned a regional spatial type"
     ))
   data$regio7bez <- revalue(
     as.factor(data$RegioStaR7),
