@@ -25,7 +25,7 @@ add_regions <- function(data) {
   url1 <-
     "https://www.bmvi.de/SharedDocs/DE/Anlage/G/regiostar-referenzdateien.xlsx?__blob=publicationFile"
   GET(url1, write_disk(tf <- tempfile(fileext = ".xlsx")))
-  df <- read_excel(tf, sheet = 4)
+  df <- read_excel(tf, sheet = 6)
   df$gem <- as.character(df$gem)
   data$gem <-
     paste0(data$ULAND, data$UREGBEZ, data$UKREIS, data$UGEMEINDE)
