@@ -25,7 +25,7 @@ First, you need to install the devtools package. You can do this from
 CRAN. Invoke R and then type:
 
 ``` r
-install.packages(devtools)
+install.packages("devtools")
 ```
 
 Load the devtools package.
