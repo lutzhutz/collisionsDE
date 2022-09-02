@@ -9,7 +9,7 @@
 
 collisionsDE is a R library to simplify the use of the publicly
 available [collision
-data](https://unfallatlas.statistikportal.de/_opendata2020.html) from
+data](https://unfallatlas.statistikportal.de/) from
 the [German Federal Statistical
 Office](https://www.destatis.de/DE/Home/_inhalt.html)
 
